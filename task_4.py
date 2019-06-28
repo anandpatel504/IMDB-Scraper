@@ -103,15 +103,7 @@ def scrape_movie_details(movie_url):
 	# Total_detail_list.append(Dict)
 	return(Dict)
 	# pprint.pprint(Total_detail_list)
-
-		# print(movies_name)
-		# print(director_list)
-		# print(country8)
-		# print(language_list)
-		# print(poster_image_url_1)
-		# print(bio_1)
-		# print(run_time_3)
-		# print(genre_list)
+	
 scrape_movie_details(url)	
 # pprint.pprint(scrape_movie_details(url))
 

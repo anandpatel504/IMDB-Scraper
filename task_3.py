@@ -21,7 +21,7 @@ def group_by_decade(movies):
 			if first <= y and second >= y:
 				list_same_year.append(j)
 		by_decade[first]=list_same_year
-	pprint.pprint(dict_1)
+	pprint.pprint(by_decade)
 	
 	
 group_by_decade(data)
